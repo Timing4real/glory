@@ -1,0 +1,302 @@
+/* style.css */
+
+.universal-bar {
+    width: 1350px;
+    border-radius: 2cm;
+    }
+
+.navigation-holder {
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    border-style: double;
+    border-radius: 2ch;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-image: url("images/Ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    border-style: none;
+    background-color: red;
+    border-radius: 2cap;
+    height: 25px;
+    color: white;
+    margin-top: 3%;
+}
+
+.list-holder ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.list-holder ul li {
+    width: 100px;
+    background-color: purple;
+    height: 25px;
+    color: white;
+    margin-top: 2%;
+    border-style: ridge;
+}
+
+.sub-holder {
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    margin-top: 1%;
+    height: 250px;
+    border-style: ridge;
+}
+
+.letter-holder {
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 5%;
+    height: 170px;
+    text-align: left;
+    color: white;
+}
+
+.upper-case {
+    margin-bottom: -8%;
+}
+
+.picture-holder {
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    background-image: url("images/Eagle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mini-container {
+    display: flex;
+    height: 300px;
+    border: 5px solid red;
+    border-style: dotted;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    background-image: url("images/Space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.triangles {
+    display: flex;
+    height: 180px;
+    width: 350px;
+    margin-left: 10%;
+}
+
+.t-one {
+    height: 80px;
+    width: 80px;
+    transform: rotate(45deg);
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: red;
+}
+
+.t-two {
+    height: 0px;
+    width: 0px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid red;
+    transform: rotate(265deg);
+    margin-top: 30%;
+}
+
+.t-three {
+    height: 0px;
+    width: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid red;
+    transform: rotate(60deg);
+    margin-top: 4%;
+}
+
+.text-content {
+    width: 550px;
+    text-align: center;
+    margin-left: -8%;
+}
+
+.big-word {
+    color: red;
+}
+
+.circles {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+.orange {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50cm;
+}
+
+.half {
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 25%;
+}
+
+.full {
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    margin-top: 40%;
+    transform: skew(20deg);
+}
+
+.last-container {
+    height: 500px;
+    background-color: green;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.top-bar {
+    margin-left: 40%;
+}
+
+.letter-one {
+    width: 200px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.letter-two {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    transform: rotate(12deg);
+}
+
+.picture-boxes {
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.box-one {
+    height: 200px;
+    width: 150px;
+    align-content: center;
+    background-color: purple;
+}
+
+.logo-one {
+    height: 120px;
+    width: 120px;
+    background-image: url("images/Brown-horse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+}
+
+.text-one {
+    margin-left: 10%;
+    color: white;
+}
+
+.box-two {
+    height: 200px;
+    width: 150px;
+    align-content: center;
+    background-color: purple;
+}
+
+.logo-two {
+    height: 120px;
+    width: 120px;
+    margin-left: 10%;
+    background-image: url("images/Pigeon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-two {
+    margin-left: 10%;
+    color: white;
+}
+
+.box-three {
+    height: 200px;
+    width: 150px;
+    align-content: center;
+    background-color: purple;
+    }
+
+.logo-three {
+    height: 120px;
+    width: 120px;
+    margin-left: 10%;
+    background-image: url("images/Rare-bird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-three {
+    margin-left: 10%;
+    color: white;
+}
+
+.box-four {
+    height: 200px;
+    width: 150px;
+    align-content: center;
+    background-color: purple;
+}
+
+.logo-four {
+    height: 120px;
+    width: 120px;
+    margin-left: 10%;
+    background-image: url("images/Twin-bird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-four {
+    margin-left: 10%;
+    color: white;
+}
+
+
+#signature {
+    margin-left: 80%;
+    margin-top: -5%;
+    color: white;
+}
+
+.soar {
+    height: 15px;
+    width: 15px;
+    border-radius: 10cm;
+    border: 2px solid black;
+    align-content: center;
+}
+
+img {
+    height: auto;
+    width: 30px;
+}
