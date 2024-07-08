@@ -1,5 +1,12 @@
 /* style.css */
 
+.navigation-holder {
+
+}
+
+@media screen (min-width: 475px, 640px, 768px, 1024px, 1280px, 1536px) {
+    
+}
 .universal-bar {
     width: 1350px;
     border-radius: 2cm;
