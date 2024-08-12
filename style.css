@@ -129,6 +129,21 @@ button {
     color: red;
 }
 
+button:hover {
+    background-color: aqua;
+    color: grey;
+}
+
+li:hover {
+    background-color: grey;
+    color: white;
+    border: 2px solid red;
+}
+
+div:hover {
+    border: none;
+}
+
 .circles {
     display: flex;
     width: 250px;
